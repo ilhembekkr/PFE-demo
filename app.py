@@ -3,9 +3,11 @@ from typing import NamedTuple
 import streamlit as st
 from data_input import show_tables, initialize_data
 from sidebar import create_sidebar
-from pages._plotting import presets
-from pages._histogram import show_figure, histogram_option_controls
-from pages._scatter_plots import scatterplot_option_controls, show_scatterplot
+#from pages._plotting import presets
+from reference._plotting import presets
+
+from reference._histogram import show_figure, histogram_option_controls
+from reference._scatter_plots import scatterplot_option_controls, show_scatterplot
 
 __version__ = "0.2"
 _repository = "https://github.com/Coorsaa/automlbenchmark_shiny_app/"

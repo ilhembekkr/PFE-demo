@@ -14,7 +14,7 @@ def create_sidebar():
 
 def create_page_navigation():
     with st.sidebar:
-        st.title("AutoML-Benchmark Analysis App")
+        st.title("Review on end-to-end AutoML Systems")
         st.write("---")
         tabs = st.radio(
             label="Page Navigation",

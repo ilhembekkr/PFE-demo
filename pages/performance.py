@@ -10,7 +10,7 @@ create_file_input()
 st.write("# Performance")
 st.write(
     """
-    In our paper, instead of reporting AUC, log loss, or RMSE directly, we often use a "scaled performance" score instead.
+    In our thesis, instead of reporting AUC, log loss, or RMSE directly, we often use a "scaled performance" score instead.
     Scaled performance for framework A on dataset D is determined by scaling its predictive score (log loss, rmse, auc)
     between the Random Forest performance on D, at 0, and the best observed performance on D across all frameworks, at 1.
     If a framework's score is lower than 0, this means it performed worse than our baseline Random Forest method.

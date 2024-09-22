@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "automl-benchmark-app-frontend"
+name = "End-to-end AutoML systems"
 version = "0.0.1"
 description = "Streamlit Analysis App for the AutoML Benchmark"
 authors = ["Stefan Coors (mail@stefancoors.de)"]
