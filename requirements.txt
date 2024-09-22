@@ -3,4 +3,7 @@ streamlit-extras
 pandas
 seaborn
 autorank
+keras
+tensorflow
+
 
